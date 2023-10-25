@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Define the model version which is always 4.0.0 for Maven 2.x POMs -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Define the unique identifier for the project -->
+    <groupId>dk.xam.depmgmt</groupId>
+    <artifactId>toponbase</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- Define the packaging type -->
+    <packaging>jar</packaging>
+
+    <!-- Define the properties for the project -->
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>dk.xam.depmgmt</groupId>
+                <artifactId>base</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+    <!-- Add dependencies if needed -->
+    <dependencies>
+        <dependency>
+            <groupId>dk.xam.depmgmt</groupId>
+            <artifactId>base</artifactId>
+        </dependency>
+    </dependencies>
+
+</project>
