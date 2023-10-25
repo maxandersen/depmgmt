@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
+  xmlns:dependency-lock="urn:se.vandmo.dependencylock">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>dk.xam.depmgmt</groupId>
+  <artifactId>toponbase-dependency-lock</artifactId>
+  <version>1.0-SNAPSHOT</version>
+
+  <dependencies>
+    <dependency>
+      <groupId>dk.xam.depmgmt</groupId>
+      <artifactId>base</artifactId>
+      <version>1.0-SNAPSHOT</version>
+      <type>jar</type>
+      <scope>compile</scope>
+      <optional>false</optional>
+      <dependency-lock:integrity>sha512:gAZAKY9qhXJw/L8xJn5SefsnUrhytz1bji44ye026DdGqThPqGDW5bSjMo4X4VhGj950KK1CwsWyDT1+ayewYQ==</dependency-lock:integrity>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <type>jar</type>
+      <scope>compile</scope>
+      <optional>false</optional>
+      <dependency-lock:integrity>sha512:oN46HZkkuHA3NvJ6DgLiQ+n1Ct0RPI+zR3zY2OMVBd8WCXVdebqPHh9DxrUgG0CcEWrRhJeDg9pmEzgnJ77caw==</dependency-lock:integrity>
+    </dependency>
+    <dependency>
+      <groupId>org.hamcrest</groupId>
+      <artifactId>hamcrest-core</artifactId>
+      <version>1.3</version>
+      <type>jar</type>
+      <scope>compile</scope>
+      <optional>false</optional>
+      <dependency-lock:integrity>sha512:4jeuc1qsT6WnJT7GkxkfQu993OOEwR0p+/YFmBwL4HfQhnV0CaytU8tbnlPYagfMQo1Fn/D1sA0yqMu8o5C+SQ==</dependency-lock:integrity>
+    </dependency>
+  </dependencies>
+
+</project>
